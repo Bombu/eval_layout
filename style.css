@@ -1,0 +1,43 @@
+img{
+    width:100%;
+}
+
+.inner{
+    margin: 0 auto;
+}
+
+
+
+@media screen and (min-width:320px){
+
+    .col{
+        width:49%;
+        display:inline-block;
+    }
+
+}
+
+@media screen and (min-width:970px){
+    .inner{
+        width:970px;
+    }
+
+    .col{
+        width:49%;
+        display:inline-block;
+    }
+
+}
+
+@media screen and (min-width:1370px) {
+    .inner {
+        width: 1370px;
+    }
+
+    .col {
+        width: 24%;
+        display: inline-block;
+    }
+}
+
+
